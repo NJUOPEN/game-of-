@@ -1,7 +1,7 @@
 function change(){
     var content1 = document.getElementById("run").value;
 	var content2 = document.getElementById("status").innerHTMl;;
-	if(content=="Run"){
+	if(content=="RUN"){
 	   documnet.getElementById("run").value = "Stop";
 	   document.getElementById("status").innerHTMl = "Running";
 	}
