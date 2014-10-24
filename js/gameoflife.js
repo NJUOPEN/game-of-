@@ -89,11 +89,11 @@ function generation(){
 function cRun(){
 	running = !running;
 	if(running){
-		//cmdRun.innerHTML = "STOP"
+		cmdRun.value = "STOP"
 		generationHandle = setInterval("generation();", 0);
 	}else{
 		clearInterval(generationHandle);
-		//cmdRun.innerHTML = "RUN"
+		cmdRun.value = "RUN"
 		result();
 	}
 }

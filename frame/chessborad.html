@@ -16,12 +16,8 @@
         <a class="link-project" href="https://github.com/NJUOPEN/game-of-.git" target="_blank">https://github.com/NJUOPEN/game-of-.git</a>
     </span>
 
-    <div class="board-field">
-        <canvas id="canvas" width="900" height="500" onmousedown="down(event);" oncontextmenu="return false;" onmouseup="up();" onmousemove="move(event);" onmouseout="out();"></canvas>
-
-
-
-
+    <div class="board-field" id="grid-div">
+        <canvas id="canvas" width="920" height="460" onmousedown="down(event);" oncontextmenu="return false;" onmouseup="up();" onmousemove="move(event);" onmouseout="out();"></canvas>
 
     </div>
 
@@ -43,11 +39,11 @@
             </li>
 
             <li class="operation-list">
-                <input class="run-button" type="submit" onclick="cRun();" value="RUN" id="run" />
+                <input class="run-button" type="button" onclick="cRun();" value="RUN" id="run" />
             </li>
 
             <li class="operation-list">
-                <input class="clear-button" type="submit" onclick="cClear();" value="CLEAR" id="clear" />
+                <input class="clear-button" type="button" onclick="cClear();" value="CLEAR" id="clear" />
             </li>
             
             
