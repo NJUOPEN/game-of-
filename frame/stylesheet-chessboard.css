@@ -10,8 +10,8 @@
 }
 
 .link-project {
-    position:relative;
-    left:20%;
+    position:fixed;
+    left:50%;
 }
 
 
