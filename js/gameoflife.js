@@ -91,6 +91,8 @@ function cRun(){
 	if(running){
 		cmdRun.value = "STOP"
 		generationHandle = setInterval("generation();", 0);
+		var lastTime = document.getElementById("time").value;
+		var t = setTimeout("cRun();",lastTime);
 	}else{
 		clearInterval(generationHandle);
 		cmdRun.value = "RUN"
