@@ -59,8 +59,8 @@
 }
 
 .run-button {
-    height:65px;
-    width:70px;
+    height:75px;
+    width:80px;
     position:relative;
     left:60px;
     font-size:16px;
@@ -68,8 +68,8 @@
 
 
 .clear-button {
-    height:65px;
-    width:70px;    
+    height:75px;
+    width:80px;
     position:relative;
     left:100px;
     font-size:16px;
@@ -79,12 +79,12 @@
 .num-notice {
     position:relative;
     left:200px;
-    top:15px;
+    top:19px;
 }
 
 .num-field {
     position:relative;
-    top:15px;
+    top:19px;
     left:220px;
     font-size:18px;
 }
