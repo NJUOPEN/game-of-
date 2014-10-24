@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="./stylesheet-chessboard.css" type="text/css">
     <link rel="stylesheet" href="./stylesheet-general.css" type="text/css">
-	
-
+    <script src="../js/change.js"></script>
+    <script src="../js/crc32.js"></script>
 </head>
 <body>
     <span class="pre-field">
         lottery by game of life - <span id="status">Stopped</span>
-        <a class="link-project" href="https://github.com/NJUOPEN/HTML5-Game-of-Life.git">click here and see our project</a>
+        <a class="link-project" href="https://github.com/NJUOPEN/game-of-.git" target="_blank">https://github.com/NJUOPEN/game-of-.git</a>
     </span>
 
     <div class="board-field" id="grid-div">
@@ -38,20 +38,14 @@
             </li>
 
             <li class="operation-list">
-                <input class="run-button" type="button" value="RUN" id="run" />
-            </li>
-            
-            <li class="operation-list">
-                <input class="stop-button" type="button" value="STOP" id="stop" />
+                <input class="run-button" type="button" onclick="toStart(); toStop();" value="RUN" id="run" />
             </li>
 
             <li class="operation-list">
                 <input class="clear-button" type="button" value="CLEAR" id="clear" />
             </li>
             
-            <li class="operation-list">
-                <input class="setting-button" type="button" value="SETTINGS" id="show-settings" />
-            </li>
+            
             
 
             <li class="operation-list">
@@ -71,7 +65,7 @@
 
 
 
-	<script src="../js/crc32.js"></script>
+	
 </body>
 
 
