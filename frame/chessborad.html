@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./stylesheet-chessboard.css" type="text/css">
     <link rel="stylesheet" href="./stylesheet-general.css" type="text/css">
     
-    
 </head>
 <body>
     <span class="pre-field">
@@ -31,15 +30,15 @@
                         人
                     </li>
                     <li>
-                        <span class="time-notice">限定时间</span>
-                        <input class="time-field" type="text" size="7" maxlength="7" id="time" value="4000" />
-                        ms
+                        <span class="time-notice">倒数代数</span>
+                        <input class="time-field" type="text" size="7" maxlength="7" id="time" value="500" />
+                        代
                     </li>
                 </ul>
             </li>
 
             <li class="operation-list">
-                <input class="run-button" type="button" onclick="cRun();" value="RUN" id="run" />
+                <input class="run-button" type="button" onclick="notZeroRun();" value="RUN" id="run" />
             </li>
 
             <li class="operation-list">
@@ -51,7 +50,7 @@
 
             <li class="operation-list">
                 <span class="num-notice">获奖号码</span>
-                <span class="num-field" id="num">0000</span>
+                <span class="num-field" id="num">N/A</span>
             </li>
         </ul>
         
@@ -65,7 +64,7 @@
 
 
 
-
+    <script src="../js/main.js"></script>
     <script src="../js/gameoflife.js"></script>
 </body>
 
