@@ -12,7 +12,7 @@
 </head>
 <body>
     <span class="pre-field">
-        lottery by game of life - <span id="status">Stopped</span>
+        lottery by game of life - <span id="status"></span>
         <a class="link-project" href="https://github.com/NJUOPEN/game-of-.git" target="_blank">https://github.com/NJUOPEN/game-of-.git</a>
     </span>
 
@@ -31,14 +31,14 @@
                     </li>
                     <li>
                         <span class="time-notice">限定时间</span>
-                        <input class="time-field" type="text" size="7" maxlength="7" id="time" value="10000" />
+                        <input class="time-field" type="text" size="7" maxlength="7" id="time" value="" />
                         ms
                     </li>
                 </ul>
             </li>
 
             <li class="operation-list">
-                <input class="run-button" type="button" onclick="toStart(); toStop();" value="RUN" id="run" />
+                <input class="run-button" type="button" onclick="change();" value="RUN" id="run" />
             </li>
 
             <li class="operation-list">
