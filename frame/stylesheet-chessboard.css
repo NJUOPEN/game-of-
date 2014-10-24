@@ -69,8 +69,6 @@
 .run-button {
     height:75px;
     width:80px;
-    position:relative;
-    left:60px;
     font-size:16px;
 }
 
@@ -78,8 +76,6 @@
 .clear-button {
     height:75px;
     width:80px;
-    position:relative;
-    left:100px;
     font-size:16px;
 }
 
