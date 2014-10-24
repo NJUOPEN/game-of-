@@ -191,5 +191,9 @@ function result() {
 			else c += "0";
 		}
 	}
+
+
 	$("num").innerHTML = Math.abs(crc32(c)) % poll + 1;
+
+
 }
