@@ -195,5 +195,9 @@ function result() {
 
 	$("num").innerHTML = Math.abs(crc32(c)) % poll + 1;
 
+	// var a;
+	// a = Math.abs(crc32(c));
+
+	// $("num").innerHTML = a - a / poll * poll + 1;
 
 }
